@@ -1,13 +1,14 @@
 <template>
   <section class="container">
-    <div>
-      Hello ta mère !
-    </div>
+    <h1>Mon article</h1>
+    <div class="content"></div>
   </section>
 </template>
 
 <script>
-  export default {}
+  export default {
+    data () {}
+  }
 </script>
 
 <style>
@@ -17,5 +18,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-direction: column;
   }
 </style>
